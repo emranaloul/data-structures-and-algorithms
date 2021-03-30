@@ -23,14 +23,15 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
-  let newArrUpper = [];
-  let newArrlower = [];
-  arr.forEach(element => {
-    newArrUpper.push(upper(element));
-    newArrlower.push(lower(element));
-
-  }); return newArrlower, newArrUpper;
+  let newArr = [];
+  arr.forEach(Element => {
+    newArr.push(callback(Element));
+  }
+  );
+  return newArr;
 };
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
