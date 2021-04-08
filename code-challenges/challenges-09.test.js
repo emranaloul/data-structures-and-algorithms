@@ -5,13 +5,13 @@ CHALLENGE 1 - Review
 
 Write a function named transformToLis that, given an object, returns an array of the key value pairs as html list items.
 
-For example: 
+For example:
 {
   name: 'bob',
   age: 32
 }
 
-Becomes: 
+Becomes:
 [
 <li>name: bob</li>,
 <li>age: 32</li>
@@ -19,33 +19,24 @@ Becomes:
 ------------------------------------------------------------------------------------------------ */
 
 function transformToLis(obj){
-  // Solution code here...
-  // let arr=Object.values({obj});
-  // console.log(arr);
-  // let newArr=arr.reduce((acc , val ) => {
-  //   acc=[`<li>name: ${val.name}</li>`,`<li>age: ${val.age}</li>`];
-  //   // console.log(val)
-  //   return acc;
-  // },[] );
-  //   // console.log(newArr);
-  // return newArr;
-  let arr = Object.entries(obj);
-  let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    newArr.push(`<li>${arr[i][0]}: ${arr[i][1]}</li>`);
+
+  let NamesArr = Object.entries(obj);
+  let arr1 = [];
+  for (let i = 0; i < NamesArr.length; i++) {
+    arr1.push(`<li>${NamesArr[i][0]}: ${NamesArr[i][1]}</li>`);
   }
-  return newArr;
+  return arr1;
 }
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 Write a function named addValues that, given an array of numbers as input, uses reduce to add the values in the array.
 ------------------------------------------------------------------------------------------------ */
 const addValues = (arr) => {
-  let newArr = arr.reduce((acc,val,idx)=>{
-    acc = acc + val;
-    return acc;
-  },0);
-  return newArr;
+  let valuesArr = arr.reduce((total,element)=>{
+    total = total + element;
+    return total;
+  }, 0);
+  return valuesArr;
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -62,12 +53,11 @@ describe('Testing challenge 3', () => {
 });
 ------------------------------------------------------------------------------------------------ */
 const addPurchases = (arr) => {
-  // Solution code here...
-  let newArr = arr.reduce((acc,val,idx)=>{
-    acc = acc + val.purchasePrice;
-    return acc;
+  let purchaseArr = arr.reduce((total,element)=>{
+    total = total + element.purchasePrice;
+    return total;
   },0);
-  return newArr;
+  return purchaseArr;
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -75,11 +65,11 @@ Write a function named countNumberOfElements that, given an array as input, uses
 Note: You may not use the array's built-in length property.
 ------------------------------------------------------------------------------------------------ */
 const countNumberOfElements = (arr) => {
-  let len = arr.reduce((acc,val,idx)=>{
-    idx++;
-    return idx;
+  let newArr = arr.reduce((total,element,i)=>{
+    i++;
+    return i;
   });
-  return len;
+  return newArr;
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -135,11 +125,11 @@ let starWarsData = [{
   gender: 'female'
 }];
 const returnNames = (arr) => {
-  let arrName = arr.reduce((acc,val,idx)=>{
-    acc[idx]=val.name;
-    return acc;
+  let namesArr = arr.reduce((total,element,i)=>{
+    total[i]=element.name;
+    return total;
   }, []);
-  return arrName;
+  return namesArr;
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -147,9 +137,7 @@ Write a function named reversedString that takes in a string and returns a strin
 Note: You must use reduce for this challenge. You may not use the built-in .reverse() string method.
 ------------------------------------------------------------------------------------------------ */
 const reversedString = (str) => {
-  // return str.split('').reverse().join('');
-  const arr = str.split('');
-  return arr.reduce((acc, val) => val + acc,'');
+  return str.split('').reverse().join('');
 };
 
 /* ------------------------------------------------------------------------------------------------
