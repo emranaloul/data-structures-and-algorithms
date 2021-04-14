@@ -35,7 +35,10 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['t', 
 ------------------------------------------------------------------------------------------------ */
 
 const firstLetters = (arr) => {
-  // Solution code here...
+  let arr1 = arr.map((val)=>{
+    return val[0];
+  });
+  return arr1;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -47,7 +50,10 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 ------------------------------------------------------------------------------------------------ */
 
 const findHappiness = (arr) => {
-  // Solution code here...
+  let arr1 = arr.filter(val=>{
+    return val.includes(':)');
+  });
+  return arr1;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -76,6 +82,15 @@ For example, 'abcdefg' returns 'bdf'
 
 const onlyOddChars = (str) => {
   // Solution code here...
+  let arr = str.split('');
+  let arr1 = arr.filter(element => {
+    if (arr.indexOf(element)%2 !== 0){
+      return element;
+    }
+
+  });
+  let str1 = arr1.join('');
+  return str1;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -86,6 +101,13 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   // Solution code here...
+  let result = true;
+  arr.forEach(element =>{
+    if(element.includes(':)') === false){
+      return result = false;
+    }
+  });
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
