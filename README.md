@@ -16,7 +16,7 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 Challenge | Link
 ---------| ---
-Reverse array | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/reverse-ll/README)
-Array shift | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/array-shift/README)
+Reverse array | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/reverse-ll)
+Array shift | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/array-shift)
 
 
