@@ -2,7 +2,7 @@
 
 function insertShiftArray (array,num){
   let arr = [];
-  let mid = Number.parseInt(arr.length/2);
+  let mid = Number.parseInt(array.length/2);
   for (let i = 0; i<=array.length-1; i++){
     if(i === mid){
       arr.push(num);
@@ -13,11 +13,8 @@ function insertShiftArray (array,num){
   }
 
   return arr;
-};
+}
 
-module.exports = function insertShiftArray (array,num){
-    return true
-} ;
+module.exports = insertShiftArray;
 
 
-git
