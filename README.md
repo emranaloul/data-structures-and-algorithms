@@ -20,6 +20,8 @@ Reverse array | [link](https://emranaloul.github.io/data-structures-and-algorith
 Array shift | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/array-shift)
 Array Binary Search | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/array-binary-search)
 Mock Interviews | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Mock-Interviews)
+Linked list | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/linked-list)
+
 
 
 
