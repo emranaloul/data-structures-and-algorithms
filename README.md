@@ -22,7 +22,7 @@ Array Binary Search | [link](https://emranaloul.github.io/data-structures-and-al
 Mock Interviews | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Mock-Interviews)
 Linked list | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/linked-list)
 ll-insertions | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Data-Structures/ll-insertions)
-
+ll-kth-from-end | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Data-Structures/ll-kth-from-end)
 
 
 
