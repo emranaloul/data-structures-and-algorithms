@@ -23,6 +23,9 @@ Mock Interviews | [link](https://emranaloul.github.io/data-structures-and-algori
 Linked list | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/linked-list)
 ll-insertions | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Data-Structures/ll-insertions)
 ll-kth-from-end | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Data-Structures/ll-kth-from-end)
+ll-zip | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/ll-zip)
+
+
 
 
 
