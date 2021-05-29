@@ -7,6 +7,20 @@ The challenge about returning the index of the provided number if it exists in t
 ## Approach & Efficiency
 Time flexability and space flexibality 
 
+### BigO:
+* append(value)
+time => O(n)
+space => O(1)
+
+* insertBefore(value, newVal)
+time => O(n)
+space => O(n)
+
+* insertBefore(value, newVal)
+time => O(n)
+space => O(n)
+
+
 ## Solution
 
 I have structured a way to check the before and after value to insert a new values
