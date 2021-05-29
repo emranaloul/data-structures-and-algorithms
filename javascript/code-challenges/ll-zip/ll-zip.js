@@ -58,23 +58,15 @@ let zipLists = function (ll1,ll2){
   if(!ll1.head || !ll2.head){
     return `Error, you should insert linked-list only`;
   }
-  let newLL = new LinkedList;
   let lv1 = ll1.head;
   let lv2 = ll2.head;
-  let lenght1 = ll1.llLength();
-  let lenght2 = ll2.llLength();
-  let newLength = lenght1+lenght2;
-  for(let i=0; i<= newLength; i++){
-    if(lv1){
-      newLL.append(lv1.value);
-      lv1 = lv1.next;
-    }
-    if(lv2){
-      newLL.append(lv2.value);
-      lv2 = lv2.next;
-    }
+  while(lv2){
+    let newValue = lv1.next;
+    lv1.next = lv2;
+    lv2 = newValue;
+    lv1 = lv1.next;
   }
-  return newLL;
+  return ll1;
 };
 
 
