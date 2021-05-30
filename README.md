@@ -25,6 +25,7 @@ ll-insertions | [link](https://emranaloul.github.io/data-structures-and-algorith
 ll-kth-from-end | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Data-Structures/ll-kth-from-end)
 ll-zip | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/ll-zip)
 Stack and Queue | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/stack-and-queue)
+Queue and Stack | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/queue-with-stacks)
 
 
 
