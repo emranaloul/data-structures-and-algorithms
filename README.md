@@ -28,6 +28,7 @@ Stack and Queue | [link](https://emranaloul.github.io/data-structures-and-algori
 Queue and Stack | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/queue-with-stacks)
 Fifo Animal Shelter | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/fifo-animal-shelter)
 Multi Bracket Validation | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/multi-bracket-validation)
+Tree | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/tree)
 
 
 
