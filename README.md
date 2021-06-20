@@ -31,7 +31,8 @@ Multi Bracket Validation | [link](https://emranaloul.github.io/data-structures-a
 Tree | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/tree)
 Binary Tree | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/binaryTree)
 Binary Tree (breadth-first) | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/breadth-first)
-
+Fizzbuzz-tree | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/fizzBuzzTree)
+Insertion Sort | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Insertion-Sort)
 
 
 
