@@ -33,6 +33,18 @@ Binary Tree | [link](https://emranaloul.github.io/data-structures-and-algorithms
 Binary Tree (breadth-first) | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/breadth-first)
 Fizzbuzz-tree | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/fizzBuzzTree)
 Insertion Sort | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Insertion-Sort)
+Merge Sort | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Merge-Sort)
+Quick Sort | [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/Quick-Sort)
+Hash-table| [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/hashtable)
+hashmap-repeated-word| [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/hashmap-repeated-word)
+hashmap-tree-intersection| [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/hashmap-tree-intersection)
+hashmap-left-join| [link](https://emranaloul.github.io/data-structures-and-algorithms/javascript/code-challenges/hashmap-left-join)
+
+
+
+
+
+
 
 
 

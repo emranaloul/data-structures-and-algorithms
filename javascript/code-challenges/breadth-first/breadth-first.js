@@ -20,7 +20,7 @@ class BinaryTree {
     let result = [];
     let traverse = (node, cb)=> {
       let current = [node];
-      while (current.length > 0) {
+      while (current.length) {
         let next = [];
         current.forEach((val) =>{
           cb(val);
